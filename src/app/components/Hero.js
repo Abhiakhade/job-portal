@@ -16,6 +16,8 @@ export default function Hero({ filters, setFilters }) {
   ];
 
   return (
+    
+
     <section
       className="relative overflow-hidden px-4 pb-14 pt-20"
       style={{
@@ -31,6 +33,7 @@ export default function Hero({ filters, setFilters }) {
         className="pointer-events-none absolute -top-16 -right-20 h-80 w-80 rounded-full"
         style={{ background: "rgba(99,102,241,0.07)" }}
       />
+      
       <div
         aria-hidden="true"
         className="pointer-events-none absolute -bottom-10 -left-14 h-60 w-60 rounded-full"
